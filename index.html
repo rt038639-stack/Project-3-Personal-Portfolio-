@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1f6c7ab287.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+         <nav>
+    <img src="images/logo4.jpeg" alt="image" class="Logo">
+
+    <ul id="sidemenue">
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Service</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+
+        <i class="fa-solid fa-xmark" onclick="closemenue()" ></i>
+    </ul>
+   <i class="fa-solid fa-bars" onclick="openmenue()"></i>
+</nav>
+
+
+
+            <div class="header">
+                <p>Frontend Developer</p><br>
+                <h1>Hi, I'm <span class="highlight">Roshan</span> Thakur <br> From India</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/img 2.jpeg" alt="Image" class="image">
+            </div>
+
+            <div class="about-col-2">
+                <h1 class="subtitle">About me</h1>
+                <p>I am a passionate Frontend Developer who loves building
+                responsive and user-friendly websites. I enjoy working
+                with HTML, CSS and JavaScript to create modern
+                web applications.I focus on writing clean code and creating modern UI designs that work smoothly across different devices.</p>
+            <div class="tab-title">
+                <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('Education')">Education</p>
+                
+            </div>
+            <div class="tab-contents active-tab" id="Skills">
+                <ul>
+                    <li><span></span>HTML5</li>
+                    <li><span></span>CSS3</li>
+                    <li><span></span>JavaScript</li>
+                    <li><span></span>Responsive Web Design</li>
+                    <li><span></span>DOM Manipulation</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="Experience">
+                <ul>
+                    <li><span >Jan 2026 - Feb 2026</span><br>Web Development Internship at CodSoft</li>
+                    <li><span>2026 - Present</span><br>Frontend Developer | Personal Projects </li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="Education">
+                <ul>
+                    <li><span>2022 </span><br>Senior Secondary From Titiksha Public School</li>
+                    <li><span>2022 - Present </span><br>B.Tech From Guru Gobind Singh Indraprastha University</li>
+                </ul>
+            </div>
+            </div>
+          </div>
+       </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services-list">
+                <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>I create modern and visually appealing website layouts that provide a great user experience.</p>
+                        <a href="#">learn more</a>
+                       </div>
+                     
+                <div>
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <h2>Frontend Developer</h2>
+                        <p>I develop responsive and interactive websites using HTML, CSS, and JavaScript.</p>
+                        <a href="#">learn more</a>
+                       </div>
+
+                <div>
+                        <i class="fa-solid fa-layer-group"></i>
+                        <h2>Responsive Design</h2>
+                        <p>I ensure websites work smoothly across all devices including mobile, tablet, and desktop.</p>
+                        <a href="#">learn more</a>
+                       </div>
+
+            </div>
+            
+        </div>
+    </div>
+
+    <div id="portfolio">
+         <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/project1 pic.jpeg"   alt="work 1">
+                    <div class="layer">
+                        <h3>Calculator Web Application</h3>
+                        <p>A simple web-based calculator built using HTML, CSS, and JavaScript. 
+                           It performs basic arithmetic operations like addition, subtraction, multiplication, and division.</p>
+                    </div>
+
+
+                </div>
+                <div class="work">
+                    <img src="images/project2 pic.jpeg"  alt="work 2">
+                    <div class="layer">
+                        <h3>Batt-Ball-Stumo Game</h3>
+                        <p>A simple Bat Ball Stump game built using HTML, CSS, and JavaScript. 
+                           The user selects bat, ball, or stump while the computer randomly chooses an option. 
+                           The result is then displayed based on the game rules.</p>
+                    </div>
+
+                </div>
+            </div>
+            <a href="#" class="btn">see more</a>
+         </div>
+
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle">Contact Me</h1>
+                <p class="ttt"><i class="fa-solid fa-paper-plane"></i>rt038639@gmail.com</p>
+                <p class="ttt"><i class="fa-solid fa-phone"></i>8800895331</p>
+                <div class="social_icons">
+                    <a href="https://www.linkedin.com/in/roshan-thakur-518930267/"><i class="fa-brands fa-square-linkedin"></i></a>
+                    <a href="https://github.com/rt038639-stack"><i class="fa-brands fa-github"></i></i></a>
+                    <a href="https://www.instagram.com/thakur_roshan_4925?igsh=bGluaWhwOWt2bWlk"><i class="fa-brands fa-instagram"></i></i></a>
+                </div>
+                <a href="images/my CV.pdf" download class="CV">Download CV</a></div>
+                <div class="contact-right">
+                    <form name="YOUR_FORM_NAME">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                         <input type="email" name="Email" placeholder="Your Email" required>
+                         <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                         <button type="submit">Submit</button>
+                    </form>
+                    <span id="Msg"></span>
+                   </div>
+                </div>
+            </div>
+            <footer class="foter"><p>© 2026 Roshan Thakur. All rights reserved.</p></footer>
+        </div>
+    </div>
+
+
+    <script>
+    
+     var tablinks = document.getElementsByClassName("tab-links");
+     var tabcontents = document.getElementsByClassName("tab-contents");
+
+     function opentab(tabname) {
+     for(tablink of tablinks) {
+        tablink.classList.remove("active-link");
+        }
+         for(tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+    }
+     event.currentTarget.classList.add("active-link");
+     document.getElementById(tabname).classList.add("active-tab");
+    }
+     
+    </script>
+
+<script>
+    var sidemenue = document.getElementById("sidemenue")
+function openmenue(){
+    sidemenue.style.right = "0";
+}
+function closemenue(){
+    sidemenue.style.right = "-200px";
+}
+
+</script>
+<script>
+	const scriptURL = 'https://script.google.com/macros/s/AKfycbwxe61gaGFFKIvkEHyLn5Zy1lnMXrT-tBcj8nHqp39AUsrLht3B3TYFdX5NHiina3Na/exec'
+	const form = document.forms['YOUR_FORM_NAME']
+    const Msg = document.getElementById("Msg")
+	form.addEventListener('submit', e => {
+		e.preventDefault()
+		fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+			.then(response => response.json())
+			.then(response => {
+                Msg.innerHTML = "Message sent succesfully"
+                setTimeout(function(){
+                    Msg.innerHTML = ""
+                },5000)
+                form.reset()
+            } )
+			.catch(error => console.error('Error!', error.message))
+	})
+</script>
+</body>
+
+</html>
