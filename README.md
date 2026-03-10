@@ -7,7 +7,7 @@
 
 ## 🌐 Live Website
 
-🔗 https://your-netlify-link.netlify.app
+🔗 https://roshanthakurportfoliowebsite.netlify.app/
 
 ---
 
