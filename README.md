@@ -2,7 +2,7 @@
 
 ## 🌐 Live Website
 
-🔗roshanthakurportfoliowebsite.netlify.app
+🔗 roshanthakurportfoliowebsite.netlify.app
 
 ---
 
