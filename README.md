@@ -1,8 +1,13 @@
 # 🚀 Roshan Thakur – Personal Portfolio
 
+![Portfolio Banner](https://img.shields.io/badge/Portfolio-Frontend%20Developer-red)
+![HTML](https://img.shields.io/badge/HTML-5-orange)
+![CSS](https://img.shields.io/badge/CSS-3-blue)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
+
 ## 🌐 Live Website
 
-🔗 roshanthakurportfoliowebsite.netlify.app
+🔗 https://your-netlify-link.netlify.app
 
 ---
 
@@ -81,7 +86,7 @@ A simple JavaScript game where the **user competes with the computer** by select
 
 ## 📬 Contact Me
 
-📧 Email: rt038639@gmail.com
+📧 Email: [rt038639@gmail.com](mailto:rt038639@gmail.com)
 📞 Phone: 8800895331
 
 🔗 LinkedIn
